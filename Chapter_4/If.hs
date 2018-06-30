@@ -1,6 +1,7 @@
 module If where 
 
 
+    
 greetIfCool :: String -> IO ()
 greetIfCool coolness =
     if cool 
