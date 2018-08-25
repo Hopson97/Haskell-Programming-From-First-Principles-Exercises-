@@ -19,3 +19,6 @@ thirdLetter str = str !! 2
 lastLetter :: [Char] -> Char
 lastLetter [x] = x
 lastLetter (_:xs) = lastLetter xs
+
+--Alternate generic version: 
+--lastLetter :: [a] -> a
